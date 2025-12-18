@@ -1,6 +1,7 @@
 const countNumber1 = document.querySelector("#countNumber");
 
 let count = "";
+countNumber1.style.fontSize = "70px";
 
 const nemeh = () => {
   count++;
@@ -27,5 +28,3 @@ const reset = () => {
     countNumber1.style.color = "black";
   }
 };
-
-countNumber1.style.fontSize = "70px";
